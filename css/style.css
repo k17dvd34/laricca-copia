@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    }
+
+    :root{
+        --lime: #00FF00;
+        --gray1: #a39797;
+        --DarkMagenta: #8B008B;
+        --Red: #FF0000;
+        --navajo: #FFDEAD;
+        --burly: #DEB887;
+        --white: #FFFFFF;
+        --cornsilk: #FFF8DC;
+        --wheat: #F5DEB3;
+        --blanched: #FFEBCD;
+        --crimson: #DC143C;
+        --bisque: #FFE4C4;
+        --black: #000000;
+        --chocolate: #D2691E;
+        --sienna: #A0522D;
+        --saddlebrown: #8B4513;
+        --darkred: #8B0000;
+    }
+    /*links gerais*/
+     a {
+        margin: 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        text-transform: uppercase;
+        }
+
+        /*lista separada do header*/
+
+   .titulo2 {
+background-color: var(--saddlebrown);
+text-align: center;
+font-family: "Raleway", cursive;
+color: var(--black);
+border-radius: 10px;
+margin: 25px;
+padding: 5px;
+font-family: "Sedan", cursive;
+}
+
+.link-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 19px;;
+    list-style: none;
+}
+/*titulo principal*/
+.titulo-principal {
+text-align: center;
+font-size: 50px;
+font-family: "Sedan", cursive;
+margin: 10px;
+cursor: pointer;
+}
+
+.titulo-principal:hover {
+    color: var(--crimson);
+}
+
+.drink-list:hover {
+    color: var(--crimson);
+}
+.topo-do-site {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    background-image: url(fundo-de-textura-de-madeira.jpg);
+    background-size: 100%;
+}
+
+.image-container {
+    width: 250px;
+}
+
+.topo-do-site img {
+    width: 200px;
+    max-height: auto;
+}
+
+.banner-container-carrinho {
+        justify-content: flex-end;
+}
+
+/*PRINCIPAL*/
+
+.corpo {
+    background-color: var(--cornsilk);
+    background-image: url(funto-amadeirado.jpg);
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+  
+}
+
+.sugestao-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px,1fr ));
+    margin: 10px;
+
+}
+
+.sugestao-container img {
+    width: 310px;
+    margin-left: 35px;
+    border-radius: 20px;
+    border: outset var(--bisque) 10px;
+}
+
+.titulo3 {
+    background-color: var(--black);
+    text-align: center;
+    color: var(--white);
+    border-radius: 10px;
+    margin: 25px;
+    padding: 5px;
+    font-family: "Sedan", cursive;
+    border: outset var(--black) 3px;
+    }
+    
+.input-botao {
+  text-align: center;
+  
+}
+
+.drink-container {
+display: flex;
+flex-direction: column;
+}
+
+.link-header img {
+    width: 60px;
+}
+
+.drink-container img {
+    width: 510px;
+    margin-left: 35px;
+    border-radius: 20px;
+    border: outset var(--navajo) 10px;
+  
+}
+/*titulo | Drink */
+.titulodrink {
+    text-align: center;
+    margin: 25px;
+    padding: 5px;
+    font-family: "Sedan", cursive;
+    color: var(--black);
+    font-size: 60px;
+}
+
+.subtitulo-container {
+   display: flex;
+    font-family: "Sedan", cursive;
+    font-size: 20px;
+}
+
+.rodape {
+    background-color: #00FF00;
+    font-family: "sedan" , cursive;
+    font-size: 30px;
+    border: outset crimson 15px;
+}
+
+/*botões*/
+.input {
+    height: 40px;
+    width: 100px;
+ border-radius: 10px;
+}
+
+.botao {
+    height: 40px;
+    width: 100px;
+border-radius: 10px;
+margin: 5px;
+}
+
+.div-container {
+    display: flex;
+}
+
+.descricao-menu {
+margin: 150px;
+    font-family: "sedan" , cursive;
+    font-size: 40px;
+   
+      
+}
+
+.button-input {
+   margin-left: 180px;
+}
